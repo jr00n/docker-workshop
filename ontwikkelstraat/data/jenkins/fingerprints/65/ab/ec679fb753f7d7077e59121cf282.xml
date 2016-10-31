@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2016-10-24 17:11:17.859 UTC</timestamp>
+  <original>
+    <name>Todo</name>
+    <number>9</number>
+  </original>
+  <md5sum>65abec679fb753f7d7077e59121cf282</md5sum>
+  <fileName>Docker image sha256:65abec679fb753f7d7077e59121cf282c5aaa6a22bc77612a35ded7303b529da</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.5">
+      <timestamp>1477329077876</timestamp>
+      <imageId>sha256:65abec679fb753f7d7077e59121cf282c5aaa6a22bc77612a35ded7303b529da</imageId>
+      <usages>
+        <entry>
+          <string>Todo</string>
+          <ranges>9-10,12-14</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>25d4eb4656c4</host>
+          <containerId>25d4eb4656c4bc20014efacb23d8130e0f7e0e05d8e44077eaa6e2bf00d98e55</containerId>
+          <containerName>/happy_tesla</containerName>
+          <created>1477329076000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>f5e5714d4eeb</host>
+          <containerId>f5e5714d4eeb836ecbbef7e786e70b47e5bfad2fc39b677ac4de9a34b701ee5b</containerId>
+          <containerName>/silly_euclid</containerName>
+          <created>1477329215000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>23574bdc6f0a</host>
+          <containerId>23574bdc6f0aa6436588f24006deea79a6f02b153ee79d5e9f4d9553a059c77e</containerId>
+          <containerName>/jovial_fermi</containerName>
+          <created>1477329538000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>9c6a9cfc31ff</host>
+          <containerId>9c6a9cfc31ff2a053c8e840d22343e5a604b9c485239011467d1429f0f55b71a</containerId>
+          <containerName>/small_brahmagupta</containerName>
+          <created>1477329794000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>23767b00531d</host>
+          <containerId>23767b00531dea7e22641a211aca68502602c698b837c2348ecd74fd4f15e560</containerId>
+          <containerName>/dreamy_banach</containerName>
+          <created>1477330015000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

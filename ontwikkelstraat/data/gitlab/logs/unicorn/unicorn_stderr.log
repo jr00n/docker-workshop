@@ -1,0 +1,4 @@
+I, [2016-10-25T06:19:29.954371 #258]  INFO -- : reaped #<Process::Status: pid 319 exit 0> worker=0
+I, [2016-10-25T06:19:29.954528 #258]  INFO -- : reaped #<Process::Status: pid 321 exit 0> worker=1
+I, [2016-10-25T06:19:29.954635 #258]  INFO -- : master complete
+I, [2016-10-25T07:02:28.401065 #263]  INFO -- : Refreshing Gem list

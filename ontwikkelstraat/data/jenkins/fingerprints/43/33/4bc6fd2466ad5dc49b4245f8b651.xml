@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2016-10-23 18:52:12.254 UTC</timestamp>
+  <original>
+    <name>Todo</name>
+    <number>3</number>
+  </original>
+  <md5sum>43334bc6fd2466ad5dc49b4245f8b651</md5sum>
+  <fileName>Docker image sha256:43334bc6fd2466ad5dc49b4245f8b651c0e38923a798d82eb64263372c9741af</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.5">
+      <timestamp>1477248732234</timestamp>
+      <imageId>sha256:43334bc6fd2466ad5dc49b4245f8b651c0e38923a798d82eb64263372c9741af</imageId>
+      <usages>
+        <entry>
+          <string>Todo</string>
+          <ranges>3</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:379002b16770cd45445a190287776b2f869e332e4fd9f2669f3b0ddd17b05b12</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.5">
+      <timestamp>1477248733580</timestamp>
+      <imageId>sha256:43334bc6fd2466ad5dc49b4245f8b651c0e38923a798d82eb64263372c9741af</imageId>
+      <usages>
+        <entry>
+          <string>Todo</string>
+          <ranges>3</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>0e508adb006e</host>
+          <containerId>0e508adb006ee55705cfa7337869103529833462f7ba9c2b4397bd1d415f7d4e</containerId>
+          <containerName>/lonely_galileo</containerName>
+          <created>1477248732000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

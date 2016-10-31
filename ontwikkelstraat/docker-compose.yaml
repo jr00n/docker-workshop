@@ -1,0 +1,38 @@
+version: '2'
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:8.9.6-ce.0
+    ports:
+      - 80
+    volumes:
+      - $PWD/data/gitlab/config:/etc/gitlab
+      - $PWD/data/gitlab/logs:/var/log/gitlab
+      - $PWD/data/gitlab/data:/var/opt/gitlab
+    environment:
+      VIRTUAL_HOST: gitlab.local
+      TCP_PORTS: 22
+      EXCLUDE_PORTS: 443
+    hostname: gitlab.local
+    mem_limit: 1G
+    restart: always
+
+  jenkins:
+    image: jenkins:2.7.4-alpine
+    ports:
+      - 8080
+      - 50000:50000
+    links:
+      - gitlab:gitlab.local
+    volumes:
+      - $PWD/data/jenkins:/var/jenkins_home
+    environment:
+      - VIRTUAL_HOST=jenkins.local
+      - EXCLUDE_PORTS=50000
+    hostname: jenkins.local
+    mem_limit: 2G
+    restart: always
+
+  lb:
+    image: 'dockercloud/haproxy:latest'
+    ........
+    ........

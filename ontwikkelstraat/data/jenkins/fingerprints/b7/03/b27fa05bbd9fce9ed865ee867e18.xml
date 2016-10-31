@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2016-10-24 17:23:10.663 UTC</timestamp>
+  <original>
+    <name>Todo</name>
+    <number>13</number>
+  </original>
+  <md5sum>b703b27fa05bbd9fce9ed865ee867e18</md5sum>
+  <fileName>Docker image sha256:b703b27fa05bbd9fce9ed865ee867e1815b96c95a58eec6069e6ea56322642df</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.5">
+      <timestamp>1477329790661</timestamp>
+      <imageId>sha256:b703b27fa05bbd9fce9ed865ee867e1815b96c95a58eec6069e6ea56322642df</imageId>
+      <usages>
+        <entry>
+          <string>Todo</string>
+          <ranges>13</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:379002b16770cd45445a190287776b2f869e332e4fd9f2669f3b0ddd17b05b12</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+  </facets>
+</fingerprint>

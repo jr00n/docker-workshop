@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scriptApproval plugin="script-security@1.24">
+  <approvedScriptHashes/>
+  <approvedSignatures/>
+  <aclApprovedSignatures/>
+  <approvedClasspathEntries/>
+  <pendingScripts/>
+  <pendingSignatures>
+    <pendingSignature>
+      <context/>
+      <signature>staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods getProperties java.lang.Object</signature>
+      <dangerous>false</dangerous>
+    </pendingSignature>
+  </pendingSignatures>
+  <pendingClasspathEntries/>
+</scriptApproval>

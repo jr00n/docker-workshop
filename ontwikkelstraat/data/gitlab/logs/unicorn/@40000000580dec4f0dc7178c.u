@@ -1,0 +1,10 @@
+2016-10-23_15:02:19.73084 starting new unicorn master
+2016-10-23_15:02:59.58054 adopted new unicorn master 367
+2016-10-23_15:03:36.46871 forwarding USR2 to unicorn master 367
+2016-10-23_15:03:58.92723 wrapper for unicorn master 367 exiting
+2016-10-23_15:03:58.95705 adopted existing unicorn master 561
+2016-10-24_11:10:46.03414 Received TERM from runit, sending to process group (-PID)
+2016-10-24_11:10:46.03649 Terminated
+2016-10-24_11:10:46.03756 forwarding TERM to unicorn master 561
+2016-10-24_11:10:46.03757 forwarding CONT to unicorn master 561
+2016-10-24_11:10:46.03785 wrapper for unicorn master 561 exiting

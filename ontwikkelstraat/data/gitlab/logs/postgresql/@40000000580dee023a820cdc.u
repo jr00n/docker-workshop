@@ -1,0 +1,13 @@
+2016-10-24_11:13:57.57116 LOG:  database system was shut down at 2016-10-24 11:13:10 GMT
+2016-10-24_11:13:57.61214 LOG:  database system is ready to accept connections
+2016-10-24_11:13:57.64171 LOG:  autovacuum launcher started
+2016-10-24_11:17:52.40701 received TERM from runit, sending INT instead to force quit connections
+2016-10-24_11:17:52.40802 LOG:  received fast shutdown request
+2016-10-24_11:17:52.40803 LOG:  aborting any active transactions
+2016-10-24_11:17:52.41028 FATAL:  terminating connection due to administrator command
+2016-10-24_11:17:52.41029 FATAL:  terminating connection due to administrator command
+2016-10-24_11:17:52.41029 FATAL:  terminating connection due to administrator command
+2016-10-24_11:17:52.41029 FATAL:  terminating connection due to administrator command
+2016-10-24_11:17:52.41029 LOG:  autovacuum launcher shutting down
+2016-10-24_11:17:52.41073 LOG:  shutting down
+2016-10-24_11:17:52.80928 LOG:  database system is shut down

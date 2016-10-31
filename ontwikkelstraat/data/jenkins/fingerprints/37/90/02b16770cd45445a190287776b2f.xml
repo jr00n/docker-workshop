@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2016-10-23 18:52:12.234 UTC</timestamp>
+  <original>
+    <name>Todo</name>
+    <number>3</number>
+  </original>
+  <md5sum>379002b16770cd45445a190287776b2f</md5sum>
+  <fileName>Docker image sha256:379002b16770cd45445a190287776b2f869e332e4fd9f2669f3b0ddd17b05b12</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet plugin="docker-commons@1.5">
+      <timestamp>1477248732234</timestamp>
+      <imageId>sha256:379002b16770cd45445a190287776b2f869e332e4fd9f2669f3b0ddd17b05b12</imageId>
+      <usages>
+        <entry>
+          <string>Todo</string>
+          <ranges>3-10,12-24,26-27</ranges>
+        </entry>
+      </usages>
+      <descendantImageIds class="sorted-set">
+        <string>sha256:00bb0af595e333219328089fcd869093e25edde207a5ab99d83d83e397725028</string>
+        <string>sha256:0205147d3eeec329ce0d0976e39cd10592bc54461b02810c7a45b4237f23fbc2</string>
+        <string>sha256:06836aea3c077e19bd4a98ff45b8a3b927a332cca25924ba516b138dd5eea843</string>
+        <string>sha256:2362e76a458444c2eb3c7d973d44e34f427fc0f9d7e9c272b11e61e5c9b39f00</string>
+        <string>sha256:3205787f957f4ae71e62b5f34daec90761eb9da1d28ce45db425dc8e94912993</string>
+        <string>sha256:43334bc6fd2466ad5dc49b4245f8b651c0e38923a798d82eb64263372c9741af</string>
+        <string>sha256:4b21dc35ec32e04bb67c3f8a3169986fff7f0fccb020291ee77f49e25f2f6480</string>
+        <string>sha256:4b8efc7b795e830afc8a356d42f3860c056fc78fa9b08bdee2fdf1a3b5ee1668</string>
+        <string>sha256:4ba6bb8e49acdc3c8e1cd98c96bb8ffb5d971db2fb541b11e2bdb0334b7f32ff</string>
+        <string>sha256:533c21dee06838fa5afeb48677ec6859af8c8d7a9f9d8a0a0e80b4b2bbab71f6</string>
+        <string>sha256:5e917e76a857bb461ad2a98f49e494c9b75aafbab32b195edc800f3b8c6d6dd9</string>
+        <string>sha256:6526338c05d215e273f5b26f204aff1915c431bcaf294ca1c51a2a47510a01c0</string>
+        <string>sha256:7cef06cae0b187a9fcebaa4019c26edd62e42495ac25fd274a2aa3e60453c21e</string>
+        <string>sha256:9fb5943b8e5f864af2cc35580dc26dd8d95a037daa39cfd03b54b407cd459556</string>
+        <string>sha256:ae2118d01c6efacb7783ac958a6792180fc3b9fc7a0a52efe36ccf13af0e718b</string>
+        <string>sha256:b703b27fa05bbd9fce9ed865ee867e1815b96c95a58eec6069e6ea56322642df</string>
+        <string>sha256:baa1d242d7ea856697752f6a6e844b2fe7fcd2324b5a2a492178bbb8d11cb929</string>
+        <string>sha256:c3a03ee1f685f400490ba804c1a8cbcedbf860aec9951a62aa725ff387078d4f</string>
+        <string>sha256:c7f8edc8b95cad7b6ea61c958838aaca422b2ec98d5b5702f7f5601f9ee48059</string>
+        <string>sha256:eb94cdefa4cd6f2fc8250adbf98e607a01b85d69877f5de45ee3f4d38b5e601b</string>
+        <string>sha256:f31f039f9652f5bb21a005f85997931f0b1646b8a3f199932417b3dade2a86d7</string>
+        <string>sha256:f83c12390b7beb6309d3456506bd3801a765ffa2c3afb66bb1e2a37b21b6122b</string>
+        <string>sha256:ffac360b4be9e51c4a97e2888a3e8bbf1cbde713be58780eaee2f3562d8950a2</string>
+      </descendantImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet>
+  </facets>
+</fingerprint>

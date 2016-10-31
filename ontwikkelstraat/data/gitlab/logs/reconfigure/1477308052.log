@@ -1,0 +1,521 @@
+# Logfile created on 2016-10-24 11:20:52 +0000 by logger.rb/44203
+[2016-10-24T11:20:53+00:00] INFO: Started chef-zero at chefzero://localhost:8889 with repository at /opt/gitlab/embedded
+  One version per cookbook
+
+[2016-10-24T11:20:53+00:00] INFO: Forking chef instance to converge...
+[2016-10-24T11:20:53+00:00] INFO: *** Chef 12.6.0 ***
+[2016-10-24T11:20:53+00:00] INFO: Chef-client pid: 23
+[2016-10-24T11:20:53+00:00] WARN: unable to detect ipaddress
+[2016-10-24T11:20:54+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: chefzero://localhost:8889/nodes/gitlab.local
+[2016-10-24T11:20:54+00:00] INFO: Setting the run_list to ["recipe[gitlab]"] from CLI options
+[2016-10-24T11:20:54+00:00] INFO: Run List is [recipe[gitlab]]
+[2016-10-24T11:20:54+00:00] INFO: Run List expands to [gitlab]
+[2016-10-24T11:20:54+00:00] INFO: Starting Chef Run for gitlab.local
+[2016-10-24T11:20:54+00:00] INFO: Running start handlers
+[2016-10-24T11:20:54+00:00] INFO: Start handlers complete.
+[2016-10-24T11:20:54+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2016-10-24T11:20:54+00:00] INFO: Loading cookbooks [gitlab@0.0.1, runit@0.14.2, package@0.0.0]
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/ci-unicorn.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/remote-syslog.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/ci-redis.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/redis.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/registry.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/database_migrations.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/ci-unicorn_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/gitlab-workhorse.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/add_trusted_certs.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/mailroom_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/gitlab-rails.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/mailroom.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/registry_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/web-server.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/selinux.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/bootstrap.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/remote-syslog_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/users.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/postgresql.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/logrotate_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/gitlab-shell.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/gitlab-pages_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/mattermost_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/nginx_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/logrotate.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/gitlab-workhorse_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/ci-sidekiq_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/remove_accounts.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/gitlab-ci-proxying.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/unicorn_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/show_config.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/postgresql_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/bootstrap_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/ci-sidekiq.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/unicorn.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/sidekiq_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/definitions/env_dir.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/definitions/redis_service.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/gitlab-pages.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/sidekiq.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/default.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/definitions/unicorn_service.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/ci-redis_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/libraries/gitlab.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/definitions/account.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/libraries/account_helper.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/nginx.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/files/default/mail_room.yml in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/redis_disable.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-mattermost-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/definitions/sidekiq_service.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/definitions/unicorn_config.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/definitions/sysctl.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/logrotate.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/nginx-gitlab-ci-http.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/definitions/template_symlink.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/mattermost.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-remote-syslog-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-gitlab-workhorse-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/pg_hba.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-sidekiq-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-nginx-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/attributes/default.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-postgresql-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/recipes/cron.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/secret_token.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/nginx-gitlab-pages-http.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/libraries/helper.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/unicorn.rb.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-unicorn-control-t.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-logrotate-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-gitlab-pages-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/resque.yml.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-logrotate-control-t.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-mattermost-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-sidekiq-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-redis-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/smtp_settings.rb.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-postgresql-control-t.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/gitlab-psql-rc.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-mattermost-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/remote_syslog.yml.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-mailroom-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-unicorn-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-mailroom-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-registry-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/postgresql.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/logrotate-service.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/nginx.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-logrotate-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/gitlab.yml.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/gitlab-rails-rc.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/redis.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/postgresql-init.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-registry-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/secrets.yml.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/nginx-gitlab-http.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-gitlab-pages-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-gitlab-workhorse-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-nginx-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-gitlab-workhorse-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/database.yml.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/registry-config.yml.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/mount_point_check.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-redis-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-sidekiq-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-mailroom-finish.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-nginx-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/rack_attack.rb.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/nginx-gitlab-mattermost-http.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-unicorn-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/nginx-gitlab-registry-http.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-gitlab-pages-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-remote-syslog-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/config.json.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-remote-syslog-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/gitconfig.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/gitlab-shell-config.yml.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-postgresql-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/relative_url.rb.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/pg_ident.conf.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/metadata.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/runit/recipes/sysvinit.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/runit/recipes/upstart.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-postgresql-log-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-unicorn-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-logrotate-run.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-registry-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/gitconfig-system.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/aws.yml.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/runit/metadata.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/runit/attributes/default.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/runit/files/default/gitlab-runsvdir.service in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/runit/recipes/default.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/runit/definitions/runit_service.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/gitlab-ci-rc.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/runit/files/default/gitlab-runsvdir.conf in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-redis-log-config.erb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/runit/recipes/systemd.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/package/attributes/default.rb in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/runit/README.md in the cache.
+[2016-10-24T11:20:54+00:00] INFO: Storing updated cookbooks/gitlab/templates/default/sv-mailroom-run.erb in the cache.
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for directory[/var/opt/gitlab] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous directory[/var/opt/gitlab]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/recipes/default.rb:43:in `from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  directory[/var/opt/gitlab]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/recipes/users.rb:24:in `from_file'
+[2016-10-24T11:20:55+00:00] WARN: Skipped selecting an init system because it looks like we are running in a container
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for directory[/etc/sysctl.d] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous directory[/etc/sysctl.d]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:22:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  directory[/etc/sysctl.d]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:22:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/90-postgresql.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/etc/sysctl.d/90-postgresql.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/etc/sysctl.d/90-postgresql.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/90-unicorn.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/etc/sysctl.d/90-unicorn.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/etc/sysctl.d/90-unicorn.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/opt/gitlab/embedded/etc/90-omnibus-gitlab.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/opt/gitlab/embedded/etc/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/opt/gitlab/embedded/etc/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/90-omnibus-gitlab.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/etc/sysctl.d/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/etc/sysctl.d/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for execute[load sysctl conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous execute[load sysctl conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:52:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  execute[load sysctl conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:52:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for directory[/etc/sysctl.d] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous directory[/etc/sysctl.d]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:22:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  directory[/etc/sysctl.d]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:22:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/90-postgresql.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/etc/sysctl.d/90-postgresql.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/etc/sysctl.d/90-postgresql.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/90-unicorn.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/etc/sysctl.d/90-unicorn.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/etc/sysctl.d/90-unicorn.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/opt/gitlab/embedded/etc/90-omnibus-gitlab.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/opt/gitlab/embedded/etc/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/opt/gitlab/embedded/etc/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/90-omnibus-gitlab.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/etc/sysctl.d/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/etc/sysctl.d/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for execute[load sysctl conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous execute[load sysctl conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:52:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  execute[load sysctl conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:52:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for directory[/var/opt/gitlab/gitlab-rails/etc] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous directory[/var/opt/gitlab/gitlab-rails/etc]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/recipes/gitlab-rails.rb:91:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  directory[/var/opt/gitlab/gitlab-rails/etc]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/unicorn_config.rb:21:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for service[unicorn] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous service[unicorn]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/recipes/default.rb:91:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  service[unicorn]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/runit/definitions/runit_service.rb:191:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for directory[/etc/sysctl.d] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous directory[/etc/sysctl.d]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:22:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  directory[/etc/sysctl.d]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:22:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/90-postgresql.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/etc/sysctl.d/90-postgresql.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/etc/sysctl.d/90-postgresql.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/90-unicorn.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/etc/sysctl.d/90-unicorn.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/etc/sysctl.d/90-unicorn.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/opt/gitlab/embedded/etc/90-omnibus-gitlab.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/opt/gitlab/embedded/etc/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/opt/gitlab/embedded/etc/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/90-omnibus-gitlab.conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous file[/etc/sysctl.d/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  file[/etc/sysctl.d/90-omnibus-gitlab.conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:45:in `block (2 levels) in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for execute[load sysctl conf] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous execute[load sysctl conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:52:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  execute[load sysctl conf]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/definitions/sysctl.rb:52:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Cloning resource attributes for service[sidekiq] from prior resource (CHEF-3694)
+[2016-10-24T11:20:55+00:00] WARN: Previous service[sidekiq]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/gitlab/recipes/default.rb:91:in `block in from_file'
+[2016-10-24T11:20:55+00:00] WARN: Current  service[sidekiq]: /opt/gitlab/embedded/cookbooks/cache/cookbooks/runit/definitions/runit_service.rb:191:in `block in from_file'
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/embedded/etc] created directory /opt/gitlab/embedded/etc
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/embedded/etc] owner changed to 0
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/embedded/etc] group changed to 0
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/embedded/etc] mode changed to 755
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/embedded/etc/gitconfig] created file /opt/gitlab/embedded/etc/gitconfig
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/embedded/etc/gitconfig] updated file contents /opt/gitlab/embedded/etc/gitconfig
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/embedded/etc/gitconfig] mode changed to 755
+[2016-10-24T11:20:55+00:00] INFO: template[/var/opt/gitlab/.gitconfig] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/.gitconfig.chef-20161024112055.433033
+[2016-10-24T11:20:55+00:00] INFO: template[/var/opt/gitlab/.gitconfig] updated file contents /var/opt/gitlab/.gitconfig
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/embedded/service/gitlab-shell/hooks/] owner changed to 998
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/embedded/service/gitlab-shell/hooks/] group changed to 998
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/embedded/service/gitlab-shell/authorized_keys.lock] created file /opt/gitlab/embedded/service/gitlab-shell/authorized_keys.lock
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/embedded/service/gitlab-shell/authorized_keys.lock] owner changed to 998
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/embedded/service/gitlab-shell/authorized_keys.lock] group changed to 998
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-shell/config.yml] created
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-shell/.gitlab_shell_secret] created
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/etc/gitlab-rails] created directory /opt/gitlab/etc/gitlab-rails
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/etc/gitlab-rails] owner changed to 998
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/etc/gitlab-rails] mode changed to 700
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/etc/gitlab-rails/gitlab-rails-rc] created file /opt/gitlab/etc/gitlab-rails/gitlab-rails-rc
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/etc/gitlab-rails/gitlab-rails-rc] updated file contents /opt/gitlab/etc/gitlab-rails/gitlab-rails-rc
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-rails/.secret] created
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-rails/config/database.yml] created
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-rails/config/secrets.yml] created
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-rails/config/resque.yml] created
+[2016-10-24T11:20:55+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab.yml] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/gitlab-rails/etc/gitlab.yml.chef-20161024112055.553660
+[2016-10-24T11:20:55+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab.yml] updated file contents /var/opt/gitlab/gitlab-rails/etc/gitlab.yml
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml] created
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-rails/config/initializers/rack_attack.rb] created
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-rails/.gitlab_shell_secret] created
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/etc/gitlab-rails/env] created directory /opt/gitlab/etc/gitlab-rails/env
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/etc/gitlab-rails/env/HOME] created file /opt/gitlab/etc/gitlab-rails/env/HOME
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/etc/gitlab-rails/env/HOME] updated file contents /opt/gitlab/etc/gitlab-rails/env/HOME
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/etc/gitlab-rails/env/RAILS_ENV] created file /opt/gitlab/etc/gitlab-rails/env/RAILS_ENV
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/etc/gitlab-rails/env/RAILS_ENV] updated file contents /opt/gitlab/etc/gitlab-rails/env/RAILS_ENV
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/etc/gitlab-rails/env/SIDEKIQ_MEMORY_KILLER_MAX_RSS] created file /opt/gitlab/etc/gitlab-rails/env/SIDEKIQ_MEMORY_KILLER_MAX_RSS
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/etc/gitlab-rails/env/SIDEKIQ_MEMORY_KILLER_MAX_RSS] updated file contents /opt/gitlab/etc/gitlab-rails/env/SIDEKIQ_MEMORY_KILLER_MAX_RSS
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/etc/gitlab-rails/env/BUNDLE_GEMFILE] created file /opt/gitlab/etc/gitlab-rails/env/BUNDLE_GEMFILE
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/etc/gitlab-rails/env/BUNDLE_GEMFILE] updated file contents /opt/gitlab/etc/gitlab-rails/env/BUNDLE_GEMFILE
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/etc/gitlab-rails/env/PATH] created file /opt/gitlab/etc/gitlab-rails/env/PATH
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/etc/gitlab-rails/env/PATH] updated file contents /opt/gitlab/etc/gitlab-rails/env/PATH
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-rails/tmp] created
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-rails/public/uploads] created
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/embedded/service/gitlab-rails/log] created
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/embedded/service/gitlab-rails/db/schema.rb] owner changed to 998
+[2016-10-24T11:20:55+00:00] INFO: execute[chown -R root:root /opt/gitlab/embedded/service/gitlab-rails/public] ran successfully
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/embedded/ssl/certs/README] created file /opt/gitlab/embedded/ssl/certs/README
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/embedded/ssl/certs/README] updated file contents /opt/gitlab/embedded/ssl/certs/README
+[2016-10-24T11:20:55+00:00] INFO: file[/opt/gitlab/embedded/ssl/certs/README] mode changed to 644
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis] created directory /opt/gitlab/sv/redis
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis] owner changed to 0
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis] group changed to 0
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis] mode changed to 755
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis/log] created directory /opt/gitlab/sv/redis/log
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis/log] owner changed to 0
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis/log] group changed to 0
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis/log] mode changed to 755
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis/log/main] created directory /opt/gitlab/sv/redis/log/main
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis/log/main] owner changed to 0
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis/log/main] group changed to 0
+[2016-10-24T11:20:55+00:00] INFO: directory[/opt/gitlab/sv/redis/log/main] mode changed to 755
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/sv/redis/run] created file /opt/gitlab/sv/redis/run
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/sv/redis/run] updated file contents /opt/gitlab/sv/redis/run
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/sv/redis/run] owner changed to 0
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/sv/redis/run] group changed to 0
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/sv/redis/run] mode changed to 755
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/sv/redis/log/run] created file /opt/gitlab/sv/redis/log/run
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/sv/redis/log/run] updated file contents /opt/gitlab/sv/redis/log/run
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/sv/redis/log/run] owner changed to 0
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/sv/redis/log/run] group changed to 0
+[2016-10-24T11:20:55+00:00] INFO: template[/opt/gitlab/sv/redis/log/run] mode changed to 755
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/init/redis] created
+[2016-10-24T11:20:55+00:00] INFO: link[/opt/gitlab/service/redis] created
+[2016-10-24T11:20:58+00:00] INFO: ruby_block[supervise_redis_sleep] called
+[2016-10-24T11:20:58+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmmax.conf] created file /opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmmax.conf
+[2016-10-24T11:20:58+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmmax.conf] updated file contents /opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmmax.conf
+[2016-10-24T11:20:58+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmmax.conf] sending run action to execute[load sysctl conf] (immediate)
+[2016-10-24T11:20:58+00:00] INFO: execute[load sysctl conf] ran successfully
+[2016-10-24T11:20:58+00:00] INFO: link[/etc/sysctl.d/90-omnibus-gitlab-kernel.shmmax.conf] created
+[2016-10-24T11:20:58+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmall.conf] created file /opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmall.conf
+[2016-10-24T11:20:58+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmall.conf] updated file contents /opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmall.conf
+[2016-10-24T11:20:58+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.shmall.conf] sending run action to execute[load sysctl conf] (immediate)
+[2016-10-24T11:20:58+00:00] INFO: execute[load sysctl conf] ran successfully
+[2016-10-24T11:20:58+00:00] INFO: link[/etc/sysctl.d/90-omnibus-gitlab-kernel.shmall.conf] created
+[2016-10-24T11:20:58+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.sem.conf] created file /opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.sem.conf
+[2016-10-24T11:20:58+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.sem.conf] updated file contents /opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.sem.conf
+[2016-10-24T11:20:58+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-kernel.sem.conf] sending run action to execute[load sysctl conf] (immediate)
+[2016-10-24T11:20:58+00:00] INFO: execute[load sysctl conf] ran successfully
+[2016-10-24T11:20:58+00:00] INFO: link[/etc/sysctl.d/90-omnibus-gitlab-kernel.sem.conf] created
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql] created directory /opt/gitlab/sv/postgresql
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql] owner changed to 0
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql] group changed to 0
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql] mode changed to 755
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/log] created directory /opt/gitlab/sv/postgresql/log
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/log] owner changed to 0
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/log] group changed to 0
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/log] mode changed to 755
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/log/main] created directory /opt/gitlab/sv/postgresql/log/main
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/log/main] owner changed to 0
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/log/main] group changed to 0
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/log/main] mode changed to 755
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/run] created file /opt/gitlab/sv/postgresql/run
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/run] updated file contents /opt/gitlab/sv/postgresql/run
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/run] owner changed to 0
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/run] group changed to 0
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/run] mode changed to 755
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/log/run] created file /opt/gitlab/sv/postgresql/log/run
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/log/run] updated file contents /opt/gitlab/sv/postgresql/log/run
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/log/run] owner changed to 0
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/log/run] group changed to 0
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/log/run] mode changed to 755
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/control] created directory /opt/gitlab/sv/postgresql/control
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/control] owner changed to 0
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/control] group changed to 0
+[2016-10-24T11:20:58+00:00] INFO: directory[/opt/gitlab/sv/postgresql/control] mode changed to 755
+[2016-10-24T11:20:58+00:00] INFO: template[/opt/gitlab/sv/postgresql/control/t] created file /opt/gitlab/sv/postgresql/control/t
+[2016-10-24T11:20:59+00:00] INFO: template[/opt/gitlab/sv/postgresql/control/t] updated file contents /opt/gitlab/sv/postgresql/control/t
+[2016-10-24T11:20:59+00:00] INFO: template[/opt/gitlab/sv/postgresql/control/t] owner changed to 0
+[2016-10-24T11:20:59+00:00] INFO: template[/opt/gitlab/sv/postgresql/control/t] group changed to 0
+[2016-10-24T11:20:59+00:00] INFO: template[/opt/gitlab/sv/postgresql/control/t] mode changed to 755
+[2016-10-24T11:20:59+00:00] INFO: link[/opt/gitlab/init/postgresql] created
+[2016-10-24T11:20:59+00:00] INFO: link[/opt/gitlab/service/postgresql] created
+[2016-10-24T11:21:01+00:00] INFO: ruby_block[supervise_postgresql_sleep] called
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/etc/gitlab-psql-rc] created file /opt/gitlab/etc/gitlab-psql-rc
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/etc/gitlab-psql-rc] updated file contents /opt/gitlab/etc/gitlab-psql-rc
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/etc/gitlab-psql-rc] owner changed to 0
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/etc/gitlab-psql-rc] group changed to 0
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/var/unicorn] created directory /opt/gitlab/var/unicorn
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/var/unicorn] owner changed to 998
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/var/unicorn] mode changed to 700
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn] created directory /opt/gitlab/sv/unicorn
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn] owner changed to 0
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn] group changed to 0
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn] mode changed to 755
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/log] created directory /opt/gitlab/sv/unicorn/log
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/log] owner changed to 0
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/log] group changed to 0
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/log] mode changed to 755
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/log/main] created directory /opt/gitlab/sv/unicorn/log/main
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/log/main] owner changed to 0
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/log/main] group changed to 0
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/log/main] mode changed to 755
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/run] created file /opt/gitlab/sv/unicorn/run
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/run] updated file contents /opt/gitlab/sv/unicorn/run
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/run] owner changed to 0
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/run] group changed to 0
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/run] mode changed to 755
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/log/run] created file /opt/gitlab/sv/unicorn/log/run
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/log/run] updated file contents /opt/gitlab/sv/unicorn/log/run
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/log/run] owner changed to 0
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/log/run] group changed to 0
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/log/run] mode changed to 755
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/control] created directory /opt/gitlab/sv/unicorn/control
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/control] owner changed to 0
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/control] group changed to 0
+[2016-10-24T11:21:01+00:00] INFO: directory[/opt/gitlab/sv/unicorn/control] mode changed to 755
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/control/t] created file /opt/gitlab/sv/unicorn/control/t
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/control/t] updated file contents /opt/gitlab/sv/unicorn/control/t
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/control/t] owner changed to 0
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/control/t] group changed to 0
+[2016-10-24T11:21:01+00:00] INFO: template[/opt/gitlab/sv/unicorn/control/t] mode changed to 755
+[2016-10-24T11:21:01+00:00] INFO: link[/opt/gitlab/init/unicorn] created
+[2016-10-24T11:21:01+00:00] INFO: link[/opt/gitlab/service/unicorn] created
+[2016-10-24T11:21:06+00:00] INFO: ruby_block[supervise_unicorn_sleep] called
+[2016-10-24T11:21:06+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-net.core.somaxconn.conf] created file /opt/gitlab/embedded/etc/90-omnibus-gitlab-net.core.somaxconn.conf
+[2016-10-24T11:21:06+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-net.core.somaxconn.conf] updated file contents /opt/gitlab/embedded/etc/90-omnibus-gitlab-net.core.somaxconn.conf
+[2016-10-24T11:21:06+00:00] INFO: file[/opt/gitlab/embedded/etc/90-omnibus-gitlab-net.core.somaxconn.conf] sending run action to execute[load sysctl conf] (immediate)
+[2016-10-24T11:21:06+00:00] INFO: execute[load sysctl conf] ran successfully
+[2016-10-24T11:21:06+00:00] INFO: link[/etc/sysctl.d/90-omnibus-gitlab-net.core.somaxconn.conf] created
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq] created directory /opt/gitlab/sv/sidekiq
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq] owner changed to 0
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq] group changed to 0
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq] mode changed to 755
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq/log] created directory /opt/gitlab/sv/sidekiq/log
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq/log] owner changed to 0
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq/log] group changed to 0
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq/log] mode changed to 755
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq/log/main] created directory /opt/gitlab/sv/sidekiq/log/main
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq/log/main] owner changed to 0
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq/log/main] group changed to 0
+[2016-10-24T11:21:06+00:00] INFO: directory[/opt/gitlab/sv/sidekiq/log/main] mode changed to 755
+[2016-10-24T11:21:06+00:00] INFO: template[/opt/gitlab/sv/sidekiq/run] created file /opt/gitlab/sv/sidekiq/run
+[2016-10-24T11:21:06+00:00] INFO: template[/opt/gitlab/sv/sidekiq/run] updated file contents /opt/gitlab/sv/sidekiq/run
+[2016-10-24T11:21:06+00:00] INFO: template[/opt/gitlab/sv/sidekiq/run] owner changed to 0
+[2016-10-24T11:21:06+00:00] INFO: template[/opt/gitlab/sv/sidekiq/run] group changed to 0
+[2016-10-24T11:21:06+00:00] INFO: template[/opt/gitlab/sv/sidekiq/run] mode changed to 755
+[2016-10-24T11:21:06+00:00] INFO: template[/opt/gitlab/sv/sidekiq/log/run] created file /opt/gitlab/sv/sidekiq/log/run
+[2016-10-24T11:21:06+00:00] INFO: template[/opt/gitlab/sv/sidekiq/log/run] updated file contents /opt/gitlab/sv/sidekiq/log/run
+[2016-10-24T11:21:06+00:00] INFO: template[/opt/gitlab/sv/sidekiq/log/run] owner changed to 0
+[2016-10-24T11:21:06+00:00] INFO: template[/opt/gitlab/sv/sidekiq/log/run] group changed to 0
+[2016-10-24T11:21:06+00:00] INFO: template[/opt/gitlab/sv/sidekiq/log/run] mode changed to 755
+[2016-10-24T11:21:06+00:00] INFO: link[/opt/gitlab/init/sidekiq] created
+[2016-10-24T11:21:06+00:00] INFO: link[/opt/gitlab/service/sidekiq] created
+[2016-10-24T11:21:07+00:00] INFO: ruby_block[supervise_sidekiq_sleep] called
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/etc/gitlab-workhorse] created directory /opt/gitlab/etc/gitlab-workhorse
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/etc/gitlab-workhorse] owner changed to 998
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/etc/gitlab-workhorse] mode changed to 700
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/etc/gitlab-workhorse/env] created directory /opt/gitlab/etc/gitlab-workhorse/env
+[2016-10-24T11:21:07+00:00] INFO: file[/opt/gitlab/etc/gitlab-workhorse/env/PATH] created file /opt/gitlab/etc/gitlab-workhorse/env/PATH
+[2016-10-24T11:21:07+00:00] INFO: file[/opt/gitlab/etc/gitlab-workhorse/env/PATH] updated file contents /opt/gitlab/etc/gitlab-workhorse/env/PATH
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse] created directory /opt/gitlab/sv/gitlab-workhorse
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse] owner changed to 0
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse] group changed to 0
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse] mode changed to 755
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse/log] created directory /opt/gitlab/sv/gitlab-workhorse/log
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse/log] owner changed to 0
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse/log] group changed to 0
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse/log] mode changed to 755
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse/log/main] created directory /opt/gitlab/sv/gitlab-workhorse/log/main
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse/log/main] owner changed to 0
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse/log/main] group changed to 0
+[2016-10-24T11:21:07+00:00] INFO: directory[/opt/gitlab/sv/gitlab-workhorse/log/main] mode changed to 755
+[2016-10-24T11:21:07+00:00] INFO: template[/opt/gitlab/sv/gitlab-workhorse/run] created file /opt/gitlab/sv/gitlab-workhorse/run
+[2016-10-24T11:21:07+00:00] INFO: template[/opt/gitlab/sv/gitlab-workhorse/run] updated file contents /opt/gitlab/sv/gitlab-workhorse/run
+[2016-10-24T11:21:07+00:00] INFO: template[/opt/gitlab/sv/gitlab-workhorse/run] owner changed to 0
+[2016-10-24T11:21:07+00:00] INFO: template[/opt/gitlab/sv/gitlab-workhorse/run] group changed to 0
+[2016-10-24T11:21:07+00:00] INFO: template[/opt/gitlab/sv/gitlab-workhorse/run] mode changed to 755
+[2016-10-24T11:21:07+00:00] INFO: template[/opt/gitlab/sv/gitlab-workhorse/log/run] created file /opt/gitlab/sv/gitlab-workhorse/log/run
+[2016-10-24T11:21:07+00:00] INFO: template[/opt/gitlab/sv/gitlab-workhorse/log/run] updated file contents /opt/gitlab/sv/gitlab-workhorse/log/run
+[2016-10-24T11:21:07+00:00] INFO: template[/opt/gitlab/sv/gitlab-workhorse/log/run] owner changed to 0
+[2016-10-24T11:21:07+00:00] INFO: template[/opt/gitlab/sv/gitlab-workhorse/log/run] group changed to 0
+[2016-10-24T11:21:07+00:00] INFO: template[/opt/gitlab/sv/gitlab-workhorse/log/run] mode changed to 755
+[2016-10-24T11:21:07+00:00] INFO: link[/opt/gitlab/init/gitlab-workhorse] created
+[2016-10-24T11:21:07+00:00] INFO: link[/opt/gitlab/service/gitlab-workhorse] created
+[2016-10-24T11:21:08+00:00] INFO: ruby_block[supervise_gitlab-workhorse_sleep] called
+[2016-10-24T11:21:08+00:00] INFO: template[/var/opt/gitlab/nginx/conf/gitlab-http.conf] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/nginx/conf/gitlab-http.conf.chef-20161024112108.806426
+[2016-10-24T11:21:08+00:00] INFO: template[/var/opt/gitlab/nginx/conf/gitlab-http.conf] updated file contents /var/opt/gitlab/nginx/conf/gitlab-http.conf
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx] created directory /opt/gitlab/sv/nginx
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx] owner changed to 0
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx] group changed to 0
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx] mode changed to 755
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx/log] created directory /opt/gitlab/sv/nginx/log
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx/log] owner changed to 0
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx/log] group changed to 0
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx/log] mode changed to 755
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx/log/main] created directory /opt/gitlab/sv/nginx/log/main
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx/log/main] owner changed to 0
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx/log/main] group changed to 0
+[2016-10-24T11:21:08+00:00] INFO: directory[/opt/gitlab/sv/nginx/log/main] mode changed to 755
+[2016-10-24T11:21:08+00:00] INFO: template[/opt/gitlab/sv/nginx/run] created file /opt/gitlab/sv/nginx/run
+[2016-10-24T11:21:08+00:00] INFO: template[/opt/gitlab/sv/nginx/run] updated file contents /opt/gitlab/sv/nginx/run
+[2016-10-24T11:21:08+00:00] INFO: template[/opt/gitlab/sv/nginx/run] owner changed to 0
+[2016-10-24T11:21:08+00:00] INFO: template[/opt/gitlab/sv/nginx/run] group changed to 0
+[2016-10-24T11:21:08+00:00] INFO: template[/opt/gitlab/sv/nginx/run] mode changed to 755
+[2016-10-24T11:21:08+00:00] INFO: template[/opt/gitlab/sv/nginx/log/run] created file /opt/gitlab/sv/nginx/log/run
+[2016-10-24T11:21:08+00:00] INFO: template[/opt/gitlab/sv/nginx/log/run] updated file contents /opt/gitlab/sv/nginx/log/run
+[2016-10-24T11:21:08+00:00] INFO: template[/opt/gitlab/sv/nginx/log/run] owner changed to 0
+[2016-10-24T11:21:08+00:00] INFO: template[/opt/gitlab/sv/nginx/log/run] group changed to 0
+[2016-10-24T11:21:08+00:00] INFO: template[/opt/gitlab/sv/nginx/log/run] mode changed to 755
+[2016-10-24T11:21:08+00:00] INFO: link[/opt/gitlab/init/nginx] created
+[2016-10-24T11:21:08+00:00] INFO: link[/opt/gitlab/service/nginx] created
+[2016-10-24T11:21:09+00:00] INFO: ruby_block[supervise_nginx_sleep] called
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate] created directory /opt/gitlab/sv/logrotate
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate] owner changed to 0
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate] group changed to 0
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate] mode changed to 755
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/log] created directory /opt/gitlab/sv/logrotate/log
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/log] owner changed to 0
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/log] group changed to 0
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/log] mode changed to 755
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/log/main] created directory /opt/gitlab/sv/logrotate/log/main
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/log/main] owner changed to 0
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/log/main] group changed to 0
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/log/main] mode changed to 755
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/run] created file /opt/gitlab/sv/logrotate/run
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/run] updated file contents /opt/gitlab/sv/logrotate/run
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/run] owner changed to 0
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/run] group changed to 0
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/run] mode changed to 755
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/log/run] created file /opt/gitlab/sv/logrotate/log/run
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/log/run] updated file contents /opt/gitlab/sv/logrotate/log/run
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/log/run] owner changed to 0
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/log/run] group changed to 0
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/log/run] mode changed to 755
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/control] created directory /opt/gitlab/sv/logrotate/control
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/control] owner changed to 0
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/control] group changed to 0
+[2016-10-24T11:21:10+00:00] INFO: directory[/opt/gitlab/sv/logrotate/control] mode changed to 755
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/control/t] created file /opt/gitlab/sv/logrotate/control/t
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/control/t] updated file contents /opt/gitlab/sv/logrotate/control/t
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/control/t] owner changed to 0
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/control/t] group changed to 0
+[2016-10-24T11:21:10+00:00] INFO: template[/opt/gitlab/sv/logrotate/control/t] mode changed to 755
+[2016-10-24T11:21:10+00:00] INFO: link[/opt/gitlab/init/logrotate] created
+[2016-10-24T11:21:10+00:00] INFO: link[/opt/gitlab/service/logrotate] created
+[2016-10-24T11:21:12+00:00] INFO: ruby_block[supervise_logrotate_sleep] called
+[2016-10-24T11:21:12+00:00] INFO: execute[initialize gitlab-rails database] running why-run nothing action to support before action
+[2016-10-24T11:21:12+00:00] INFO: bash[migrate gitlab-rails database] running why-run run action to support before action
+[2016-10-24T11:21:12+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab.yml] sending run action to execute[clear the gitlab-rails cache] (delayed)
+[2016-10-24T11:21:41+00:00] INFO: execute[clear the gitlab-rails cache] ran successfully
+[2016-10-24T11:21:41+00:00] INFO: file[/opt/gitlab/etc/gitlab-workhorse/env/PATH] sending restart action to service[gitlab-workhorse] (delayed)
+[2016-10-24T11:21:41+00:00] INFO: service[gitlab-workhorse] restarted
+[2016-10-24T11:21:41+00:00] INFO: Chef Run complete in 47.469554132 seconds
+[2016-10-24T11:21:41+00:00] INFO: Running report handlers
+[2016-10-24T11:21:41+00:00] INFO: Report handlers complete

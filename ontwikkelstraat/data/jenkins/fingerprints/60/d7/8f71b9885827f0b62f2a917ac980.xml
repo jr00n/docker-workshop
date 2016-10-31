@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2016-10-24 17:54:57.600 UTC</timestamp>
+  <original>
+    <name>Todo</name>
+    <number>24</number>
+  </original>
+  <md5sum>60d78f71b9885827f0b62f2a917ac980</md5sum>
+  <fileName>Docker image sha256:60d78f71b9885827f0b62f2a917ac980b76d4c53beebe1f83645d17ad32d4502</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.5">
+      <timestamp>1477331697603</timestamp>
+      <imageId>sha256:60d78f71b9885827f0b62f2a917ac980b76d4c53beebe1f83645d17ad32d4502</imageId>
+      <usages>
+        <entry>
+          <string>Todo</string>
+          <ranges>24,26-27</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>docker</host>
+          <containerId>5e92889301de900248617c7ce8e9916c8dc4e5c0838e2d1e3f6aa0e5ee223b3f</containerId>
+          <containerName>/trusting_knuth</containerName>
+          <created>1477331697000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>docker</host>
+          <containerId>593852ff518be46bcb09f19ae378960f76cdb8a548a3c32e94f3db7606eded28</containerId>
+          <containerName>/backstabbing_lamarr</containerName>
+          <created>1477334763000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>docker</host>
+          <containerId>d988a93dc3ef290e526505a421ab794077728db379502773c18166d4a81fe871</containerId>
+          <containerName>/fervent_shirley</containerName>
+          <created>1477335273000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
